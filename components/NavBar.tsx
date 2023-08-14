@@ -30,7 +30,7 @@ const Nav = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
   return (
     <nav>
-      <div className={`${navbarBackground} transition fixed border-2 border-transparent flex items-center justify-between top-0 z-30 w-full py-6`}>
+      <div className={`${navbarBackground} transition fixed border-2 border-transparent flex items-center justify-between top-0 z-30 w-full py-3`}>
         <div className="flex items-center justify-between mx-auto top-0 z-30 w-5/6">
 
           <div className="muscle-mate text-slate-100 font-regular text-xl flex items-center gap-1">

@@ -4,9 +4,13 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
+     
   ],
   theme: {
     extend: {
+      content: {
+        'evolve-text': "url('/img/EvolveText.png')",
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -14,5 +18,12 @@ module.exports = {
       },
     },
   },
+  
+  
+
   plugins: [],
-}
+
+
+};
+
+
